@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   <title>Home</title>
+   <link rel="stylesheet" type="text/css" href="css/HomeStyle.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Store Logo">
+        </div>
+        <div class="store-name">[ متجر حُب ]</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a>Settings</a>
+                <div class="dropdown-content">
+                    <a href="newPassword.html">Update password</a>
+                    <a href="deleteAccount.html">Delete account</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <section class="main-section">
+        <div class="section-content">
+            <div class="section-text">
+                <h1>Add a touch of love to every occasion</h1>
+            </div>
+            <div class="section-image">
+                <img src="img/gift.jpeg" alt="Gift">
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <h2>Shop by Categories</h2>
+        <p>Start shopping based on the categories you are interested in.</p>
+        <div class="categories-container">
+            <div class="category">
+                <img src="img/flowersIcon.png" alt="Flowers">
+                <p><label>Flowers</label></p>
+                <p>Roses for Every Emotion: Say it with Grace, Say it with Roses.</p>
+                <p><a href="#flowersID">Learn more</a></p>
+            </div>
+            <div class="category">
+                <img src="img/jewelriesIcon.png" alt="Jewelries">
+                <p><label>Jewelries</label></p>
+                <p>Every Piece Tells a Story, Embrace the Elegance.</p>
+                <p><a href="#jewelryID">Learn more</a></p>
+            </div>
+            <div class="category">
+                <img src="img/cozyIcon.png" alt="Cozy">
+                <p><label>Cozy</label></p>
+                <p>In the embrace of winter: Warmth means care.</p>
+                <p><a href="#cozyID">Learn more</a></p>
+            </div>
+        </div>
+    </section>
+
+    <form action="table.php" method="post">
+
+        <section class="products-section">
+            <section id="flowersID" class="flower-products-section">
+                <h2>Choose Your Elegant Flower</h2>
+                <p>Discover the beauty of our diverse flower selection, where each bloom tells a story of elegance and
+                    grace.</p>
+                <div class="table-container">
+                    <table class="flower-products-table">
+                        <tr>
+                            <td>
+                                <input type="radio" name="rflower" value="Red">
+                                <label>"Red Rose Wrap"</label>
+                                <img src="img/Red Rose Wrap.jpg" alt="Red Rose">
+                                <p class="product-info">
+                                    <span class="product-description">Beautiful Red Rose</span><br>
+                                    <span class="product-price"><del>$29.99</del>$19.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="wflower" value="White">
+                                <label>"Lisianthus Wrap"</label>
+                                <img src="img/Lisianthus+Wrap.jpg" alt="White Rose">
+                                <p class="product-info">
+                                    <span class="product-description">Elegant White Rose</span><br>
+                                    <span class="product-price">$24.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="pflower" value="Pink">
+                                <label>"Pink Rose Wrap"</label>
+                                <img src="img/Pink Rose Wrap.jpg" alt="Pink Rose Wrap">
+                                <p class="product-info">
+                                    <span class="product-description">When in doubt, choose pink roses.</span><br>
+                                    <span class="product-price">$29.99</span>
+                                </p>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section id="jewelryID" class="jewelry-products-section">
+
+                <h2>Choose Your Signature Piece</h2>
+                <p>Explore our enchanting collection of jewelry pieces, each crafted to express your unique style.</p>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="yNecklace" value="Necklace">
+                                <label>"Necklace Yellow Dimond"</label>
+                                <img src="img/Diamond Yellow  Necklace .jpg" alt=" Diamond Yellow Necklace ">
+                                <p class="product-info">
+                                    <span class="product-description">Stunning Diamond Yellow Necklace</span><br>
+                                    <span class="product-price">$699.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="wBracelet " value="Bracelet">
+                                <label>" Diamond Bracelet "</label>
+                                <img src="img/Diamond Bracelet .jpg" alt=" Diamond Bracelet ">
+                                <p class="product-info">
+                                    <span class="product-description">Timeless Diamond Bracelet </span><br>
+                                    <span class="product-price"><del>599.99</del>$499.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="wRing" value="Ring">
+                                <label>"Diamond Ring "</label>
+                                <img src="img/Diamond Ring .jpg" alt="Diamond Ring ">
+                                <p class="product-info">
+                                    <span class="product-description">Classic Diamond Ring </span><br>
+                                    <span class="product-price">$799.99</span>
+                                </p>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+
+
+            <section id="cozyID" class="cozy-products-section">
+
+                <h2>Choose Your Winter Warmth</h2>
+                <p>Explore our collection of Cozy Gloves and Knit Wools, where every piece is designed to bring you
+                    comfort and warmth in the embrace of winter.</p>
+                <div class="table-container">
+                    <table class="flower-products-table">
+                        <tr>
+                            <td>
+                                <input type="radio" name="wGloves" value="Gloves">
+                                <label>"Cozy White Gloves"</label>
+                                <img src="img/Cozy White Gloves.png" alt=" Cozy White Gloves">
+                                <p class="product-info">
+                                    <span class="product-description">Warm White Gloves</span><br>
+                                    <span class="product-price">$4.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="rScarf" value="Scarf">
+                                <label>" Cozy Red Scarf "</label>
+                                <img src="img/Cozy Red Scarf .png" alt=" Cozy Red Scarf ">
+                                <p class="product-info">
+                                    <span class="product-description">Chic Red Scarf </span><br>
+                                    <span class="product-price">$5.99</span>
+                                </p>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="wScarf" value="Scarf">
+                                <label>"Cozy White Scarf"</label>
+                                <img src="img/Cozy White Scarf.png" alt="Cozy White Scarf">
+                                <p class="product-info">
+                                    <span class="product-description">Soft White Scarf</span><br>
+                                    <span class="product-price">$5.99</span>
+                                </p>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+        <section class="submit-section">
+            <input type="submit" value="Confirm your order">
+        </section>
+    </form>
+
+    <footer>
+        &copy; all rights reserved.
+    </footer>
+
+</body>
+
+</html>
